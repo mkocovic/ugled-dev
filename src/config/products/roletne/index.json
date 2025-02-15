@@ -1,0 +1,96 @@
+{
+    "title": "Roletne",
+    "subtitle": "Savremena rešenja za zaštitu od sunca, privatnost i sigurnost vašeg doma.",
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1920",
+      "alt": "Roletne"
+    },
+    "features": [
+      {
+        "title": "Zaštita od Sunca",
+        "description": "Efikasna kontrola sunčeve svetlosti i toplote.",
+        "icon": "Sun"
+      },
+      {
+        "title": "Privatnost",
+        "description": "Potpuna kontrola privatnosti u vašem prostoru.",
+        "icon": "Moon"
+      },
+      {
+        "title": "Sigurnost",
+        "description": "Dodatna zaštita vašeg doma.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Ušteda Energije",
+        "description": "Poboljšana energetska efikasnost.",
+        "icon": "Zap"
+      }
+    ],
+    "types": [
+      {
+        "name": "Aluminijumske Roletne",
+        "description": "Izdržljive i elegantne roletne od aluminijuma.",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        "name": "PVC Roletne",
+        "description": "Ekonomično i praktično rešenje.",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        "name": "Spoljne Roletne",
+        "description": "Maksimalna zaštita za spoljne prostore.",
+        "image": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=800"
+      }
+    ],
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
+        "title": "Roletne Gallery 1",
+        "description": "Moderni roletni sistemi u upotrebi."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800",
+        "title": "Roletne Gallery 2",
+        "description": "Detalji roletni sistema."
+      }
+    ],
+    "technicalSpecifications": {
+      "left": [
+        {
+          "title": "Materijali",
+          "description": "Kvalitetni materijali poput aluminijuma i PVC-a."
+        },
+        {
+          "title": "Upravljanje",
+          "description": "Ručno ili motorno upravljanje roletnama."
+        },
+        {
+          "title": "Izolacija",
+          "description": "Termička i zvučna izolacija."
+        }
+      ],
+      "right": [
+        {
+          "title": "Dimenzije",
+          "description": "Prilagodljive dimenzije za svaki prostor."
+        },
+        {
+          "title": "Boje",
+          "description": "Širok izbor boja i završnih obrada."
+        },
+        {
+          "title": "Montaža",
+          "description": "Jednostavna montaža i održavanje."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Zainteresovani ste?",
+      "description": "Kontaktirajte nas za više informacija i besplatnu konsultaciju.",
+      "buttonText": "Zatražite Ponudu",
+      "buttonLink": "/kontakt"
+    }
+  }
+  
