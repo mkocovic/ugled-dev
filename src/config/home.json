@@ -82,36 +82,7 @@
       }
     ]
   },
-  "services": {
-    "title": "Naše usluge",
-    "description": "Nudimo kompletna rešenja – od projektovanja, preko ugradnje, do redovnog održavanja.",
-    "items": [
-      {
-        "title": "Ugradnja",
-        "description": "Profesionalna ugradnja prilagođena vašim potrebama.",
-        "icon": "Tool"
-      },
-      {
-        "title": "Konsultacije",
-        "description": "Stručni saveti i projektovanje rešenja.",
-        "icon": "UserCheck"
-      },
-      {
-        "title": "Održavanje",
-        "description": "Redovno održavanje i servisiranje za dugotrajnu upotrebu.",
-        "icon": "Wrench"
-      }
-    ]
-  },
-  "stats": {
-    "items": [
-      { "value": "150+", "label": "Završenih projekata" },
-      { "value": "25", "label": "Članova tima" },
-      { "value": "12", "label": "Godina iskustva" },
-      { "value": "18", "label": "Osvojenih nagrada" }
-    ]
-  },
-  "partnersTestimonials": {
+  "partnersAndTestimonials": {
     "title": "Poverenje lidera u industriji",
     "description": "Naša posvećenost kvalitetu osvojila je poverenje vodećih arhitekata, izvođača i vlasnika kuća širom regiona.",
     "partners": [
@@ -162,15 +133,6 @@
         "company": "BuildTech Construction",
         "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3"
       }
-    ]
-  },
-  "partners": {
-    "title": "Naši partneri",
-    "logos": [
-      "https://via.placeholder.com/150x80?text=Partner+1",
-      "https://via.placeholder.com/150x80?text=Partner+2",
-      "https://via.placeholder.com/150x80?text=Partner+3",
-      "https://via.placeholder.com/150x80?text=Partner+4"
     ]
   },
   "cta": {
