@@ -41,9 +41,9 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 flex justify-between items-center transition-all duration-300 ${isMobile
-        ? 'pl-12 pr-6 md:pr-12 py-4 bg-[var(--bg-color)]'
+        ? 'pl-6 pr-6 md:pr-12 py-4 bg-[var(--bg-color)]'
         : isScrolled
-          ? 'pl-12 pr-6 md:pr-12 py-4 bg-[var(--bg-color)]'
+          ? 'pl-6 pr-6 md:pr-12 py-4 bg-[var(--bg-color)]'
           : 'pl-0 pr-6 md:pr-12 py-0 bg-transparent'
         }`}
     >

@@ -25,8 +25,9 @@ export default function MobileMenu({
 
   return (
     <div
-      className={`fixed inset-0 bg-[var(--bg-color)] z-50 transition-transform duration-500 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
+      className={`fixed inset-0 bg-[var(--bg-color)] z-50 transition-transform duration-500 ${
+        isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+      }`}
     >
       <div className="flex flex-col h-full">
         <button
@@ -38,31 +39,35 @@ export default function MobileMenu({
         <nav className="flex-1 overflow-y-auto">
           <ul className="flex flex-col items-center space-y-6 py-10">
             {navigation.map((link) => (
-              <li key={link.label} className="text-center">
+              <li key={link.label} className="w-full text-center">
                 {link.dropdown ? (
-                  // Dropdown item (e.g. "Proizvodi")
-                  <div className="space-y-2">
+                  <div className="w-full">
                     <button
                       onClick={() => toggleDropdown(link.label)}
-                      className="text-4xl font-light text-white hover:text-zinc-400 transition-colors"
+                      className="w-full text-4xl font-light text-white hover:text-zinc-400 transition-colors relative"
                     >
-                      {/* Center the label+arrow as one group */}
-                      <div className="inline-flex items-center gap-1">
+                      <div className="relative inline-block">
                         <span>{link.label}</span>
                         <ChevronDown
                           size={24}
-                          className={`transition-transform ${openDropdowns[link.label] ? 'rotate-180' : ''
-                            }`}
+                          className={`absolute transition-transform duration-300 ${
+                            openDropdowns[link.label] ? 'rotate-180' : 'rotate-0'
+                          }`}
+                          style={{
+                            right: '-30px',
+                            top: '50%',
+                            transform: 'translateY(-50%)'
+                          }}
                         />
                       </div>
                     </button>
                     {openDropdowns[link.label] && (
-                      <ul className="flex flex-col items-center space-y-4 mt-2">
+                      <ul className="flex flex-col items-center space-y-4 mt-2 px-4 py-2 bg-zinc-800 rounded-md">
                         {link.dropdown.map((item) => (
                           <li key={item.label}>
                             <Link
                               href={item.href}
-                              className="text-2xl font-light text-white hover:text-zinc-400 transition-colors"
+                              className="text-2xl font-light text-zinc-200 hover:text-zinc-400 transition-colors"
                               onClick={() => setIsMenuOpen(false)}
                             >
                               {item.label}
@@ -73,10 +78,9 @@ export default function MobileMenu({
                     )}
                   </div>
                 ) : (
-                  // Regular link (no dropdown)
                   <Link
                     href={link.href}
-                    className="text-4xl font-light text-white hover:text-zinc-400 transition-colors"
+                    className="block text-center text-4xl font-light text-white hover:text-zinc-400 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {link.label}

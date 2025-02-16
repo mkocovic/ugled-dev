@@ -115,7 +115,7 @@ const MiniGallery: React.FC<MiniGalleryProps> = ({ galleryImages }) => {
                 </AnimatePresence>
 
                 {/* Navigation Buttons */}
-                <div className="absolute bottom-8 right-8 z-[999] flex items-center gap-4">
+                <div className="absolute bottom-8 right-8 z-[1] flex items-center gap-4">
                     <button
                         className="w-12 h-12 flex items-center justify-center bg-black/50 text-white hover:bg-white hover:text-black transition-colors rounded-full"
                         onClick={() => paginate(-1)}
@@ -133,7 +133,7 @@ const MiniGallery: React.FC<MiniGalleryProps> = ({ galleryImages }) => {
                 </div>
 
                 {/* Slide Counter */}
-                <div className="absolute bottom-8 left-8 z-[999] text-lg font-light">
+                <div className="absolute bottom-8 left-8 z-[1] text-lg font-light">
                     <span className="text-2xl font-normal">
                         {(currentSlide + 1).toString().padStart(2, "0")}
                     </span>
@@ -160,7 +160,7 @@ const MiniGallery: React.FC<MiniGalleryProps> = ({ galleryImages }) => {
             </div>
 
             {/* Gallery Thumbnails */}
-            <div className="mt-8 flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
+            <div className="p-4 flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
                 {galleryImages.map((image, index) => (
                     <button
                         key={index}
