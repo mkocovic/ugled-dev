@@ -83,7 +83,7 @@ export default function Hero() {
       ))}
 
       {/* Slider Controls – on mobile at left-8 and on desktop at left-[180px] */}
-      <div className="absolute bottom-18 left-8 min-[990px]:left-[180px] flex gap-4 z-20">
+      <div className="absolute bottom-14 left-8 min-[990px]:left-[180px] flex gap-4 z-20">
         <button
           onClick={prevSlide}
           className="w-12 h-12 border border-white flex items-center justify-center hover:bg-white hover:text-black transition-colors"
@@ -101,7 +101,7 @@ export default function Hero() {
       </div>
 
       {/* Slide Counter – always positioned at bottom-12 right-8 */}
-      <div className="absolute bottom-18 right-8 z-20 text-lg">
+      <div className="absolute bottom-14 right-8 z-20 text-lg">
         <span className="font-bold">
           {(currentSlide + 1).toString().padStart(2, '0')}
         </span>
