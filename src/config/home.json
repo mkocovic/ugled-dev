@@ -1,0 +1,146 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1920",
+        "title": "Moderni Prozori",
+        "subtitle": "Inovativni dizajn i vrhunska izrada"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=1920",
+        "title": "Elegantna Vrata",
+        "subtitle": "Sigurnost i estetika u svakom detalju"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1920",
+        "title": "Staklene Pregrade",
+        "subtitle": "Prostorne i moderne pregrade"
+      }
+    ]
+  },
+  "about": {
+    "title": "Kreiramo Vrhunske Proizvode",
+    "description": "Već decenijama stvaramo proizvode koji unose eleganciju, sigurnost i funkcionalnost u vaše domove i poslovne prostore. Naš tim stručnjaka garantuje inovativna rešenja koja transformišu svaki prostor.",
+    "cta": {
+      "text": "Saznajte više",
+      "link": "/o-nama"
+    },
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=600",
+        "alt": "Enterijer"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=600",
+        "alt": "Eksterijer"
+      }
+    ]
+  },
+  "featuredProjects": {
+    "title": "Naši Projekti",
+    "subtitle": "Pogledajte neke od naših najznačajnijih realizacija",
+    "cta": {
+      "text": "Pogledajte sve projekte",
+      "link": "/galerija"
+    },
+    "projects": [
+      {
+        "title": "Moderna Vila",
+        "category": "Rezidencijalno",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        "title": "Gradska Kancelarija",
+        "category": "Komercijalno",
+        "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        "title": "Urbani Loft",
+        "category": "Enterijer",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800"
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Zašto izabrati naše proizvode?",
+    "features": [
+      {
+        "title": "Energetska efikasnost",
+        "description": "Naši proizvodi premašuju industrijske standarde za toplotnu izolaciju."
+      },
+      {
+        "title": "Zvučna izolacija",
+        "description": "Napredna tehnologija za optimalno smanjenje buke."
+      },
+      {
+        "title": "10-godišnja garancija",
+        "description": "Ponosni smo na našu garanciju koja pokriva sve proizvode."
+      },
+      {
+        "title": "Profesionalna ugradnja",
+        "description": "Stručni timovi za ugradnju osiguravaju savršeno uklapanje i funkcionalnost."
+      }
+    ]
+  },
+  "partnersAndTestimonials": {
+    "title": "Poverenje lidera u industriji",
+    "description": "Naša posvećenost kvalitetu osvojila je poverenje vodećih arhitekata, izvođača i vlasnika kuća širom regiona.",
+    "partners": [
+      {
+        "name": "Radnički 1923",
+        "logo": "/images/partners/radnicki-1923.png"
+      },
+      {
+        "name": "Modern Architects",
+        "logo": "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Elite Developers",
+        "logo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Innovative Homes",
+        "logo": "https://images.unsplash.com/photo-1545193544-312983719627?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Urban Living",
+        "logo": "https://images.unsplash.com/photo-1577493340887-b7bfff550145?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+      },
+      {
+        "name": "Smart Spaces",
+        "logo": "https://images.unsplash.com/photo-1545193544-312983719627?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+      }
+    ],
+    "testimonials": [
+      {
+        "content": "Kvalitet i izrada njihovih prozora je izuzetan. Tim za ugradnju je profesionalan, efikasan i ostavio je objekat urednim.",
+        "author": "Sarah Johnson",
+        "role": "Glavni arhitekta",
+        "company": "Modern Architects",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3"
+      },
+      {
+        "content": "Njihova inovativna rešenja postala su ključna u našim projektima održive gradnje. Energetska efikasnost je izuzetna.",
+        "author": "Michael Chen",
+        "role": "Menadžer projekta",
+        "company": "Elite Developers",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3"
+      },
+      {
+        "content": "Radimo sa njima već preko 5 godina. Njihova posvećenost kvalitetu i korisničkoj podršci je neuporediva.",
+        "author": "Emma Williams",
+        "role": "CEO",
+        "company": "BuildTech Construction",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Spremni da započnete projekat?",
+    "description": "Kontaktirajte nas danas i saznajte kako možemo da vam pomognemo.",
+    "button": {
+      "text": "Kontaktirajte nas",
+      "link": "/kontakt"
+    }
+  }
+}

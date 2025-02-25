@@ -1,0 +1,51 @@
+{
+    "title": "Vrata",
+    "description": "Otkrijte našu kolekciju visokokvalitetnih vrata koja kombinuju sigurnost, funkcionalnost i elegantan dizajn.",
+    "benefits": [
+        {
+            "icon": "Shield",
+            "title": "Sigurnost",
+            "description": "Napredni sistemi zaključavanja i protivprovalna zaštita."
+        },
+        {
+            "icon": "Lock",
+            "title": "Izdržljivost",
+            "description": "Dugotrajnost i otpornost na vremenske uslove."
+        },
+        {
+            "icon": "Paintbrush",
+            "title": "Dizajn",
+            "description": "Širok izbor stilova i završnih obrada."
+        }
+    ],
+    "types": [
+        {
+            "name": "Ulazna",
+            "description": "Sigurna i elegantna ulazna vrata za vaš dom.",
+            "image": "https://images.unsplash.com/photo-1613390792897-aa0c06a52332?auto=format&fit=crop&q=80&w=800",
+            "features": [
+                "Vrhunska sigurnost",
+                "Termička izolacija",
+                "Zvučna izolacija",
+                "Protivprovalna zaštita"
+            ]
+        },
+        {
+            "name": "Sobna",
+            "description": "Moderna sobna vrata za svaki enterijer.",
+            "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=800",
+            "features": [
+                "Elegantni dizajn",
+                "Različite završne obrade",
+                "Kvalitetni okovi",
+                "Lako održavanje"
+            ]
+        }
+    ],
+    "cta": {
+        "title": "Zatražite Ponudu",
+        "description": "Kontaktirajte nas za detaljnu ponudu i konsultacije sa našim stručnjacima.",
+        "buttonText": "Kontaktirajte Nas",
+        "buttonLink": "/kontakt"
+    }
+}

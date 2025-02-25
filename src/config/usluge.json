@@ -1,0 +1,55 @@
+{
+    "pageTitle": "Naše Usluge",
+    "services": [
+      {
+        "icon": "Ruler",
+        "title": "Merenje",
+        "description": "Precizno merenje i konsultacije na licu mesta za optimalne rezultate."
+      },
+      {
+        "icon": "PenTool",
+        "title": "Montaža",
+        "description": "Profesionalna ugradnja od strane obučenih stručnjaka."
+      },
+      {
+        "icon": "Truck",
+        "title": "Dostava",
+        "description": "Sigurna i brza dostava na željenu lokaciju."
+      },
+      {
+        "icon": "Users",
+        "title": "Konsultacije",
+        "description": "Stručne konsultacije i saveti za izbor najboljih rešenja."
+      },
+      {
+        "icon": "Wrench",
+        "title": "Reparacija",
+        "description": "Brza i efikasna popravka svih tipova stolarijskih elemenata."
+      },
+      {
+        "icon": "Settings",
+        "title": "Servisiranje",
+        "description": "Redovno održavanje i servisiranje za dugotrajnost vaših proizvoda."
+      }
+    ],
+    "whyChooseTitle": "Zašto Izabrati Nas",
+    "whyChoose": [
+      {
+        "title": "Fleksibilnost",
+        "description": "Prilagođavamo se vašim željama i budžetu za svaki proizvod."
+      },
+      {
+        "title": "Stručnost",
+        "description": "Naš tim stručnjaka sa dugogodišnjim iskustvom u industriji garantuje visok kvalitet izrade"
+      },
+      {
+        "title": "Brza i efikasna usluga",
+        "description": "Od trenutka kada se odlučite za nas, pa do finalne realizacije, obezbeđujemo brzu i efikasnu realizaciju svih projekata."
+      },
+      {
+        "title": "Profesionalna ugradnja",
+        "description": "Nas tim iskusnih majstora pažljivo postavlja svaki proizvod, osiguravajući savršeno uklapanje i dugotrajan rad."
+      }
+    ]
+  }
+  
