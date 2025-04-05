@@ -1,0 +1,60 @@
+/* Css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-family: 'Didact Gothic', sans-serif;
+    --bg-color: #272727;
+    --glow-color: rgb(182, 155, 95);
+    --corner-border-color: var(--glow-color);
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --muted: 240 5% 64%;
+    --accent: 240 5% 84%;
+  }
+
+  body {
+    @apply bg-[var(--bg-color)] text-white antialiased;
+  }
+}
+
+svg {
+  stroke: var(--glow-color);
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-light mb-6;
+}
+
+.section-subtitle {
+  @apply text-zinc-400 mb-8;
+}
+
+.button-primary {
+  @apply inline-block bg-white text-black py-4 px-8 hover:bg-zinc-200 transition-colors;
+}
+
+.button-outline {
+  @apply inline-flex items-center gap-2 text-white hover:text-zinc-300 transition-colors;
+}
+
+.glass-effect {
+  background: rgba(182, 155, 95, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(182, 155, 95, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(182, 155, 95, 0.05);
+  transition: all 0.3s ease;
+}
+
+.glass-effect:hover {
+  background: rgba(182, 155, 95, 0.1);
+  border-color: rgba(182, 155, 95, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(182, 155, 95, 0.1);
+}
+
+.gold-accent {
+  color: var(--glow-color);
+}

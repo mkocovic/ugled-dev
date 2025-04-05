@@ -1,0 +1,168 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "image": "/images/slide_one.webp",
+        "title": "Moderni Prozori",
+        "subtitle": "Savremeni dizajn i visok nivo energetske efikasnosti"
+      },
+      {
+        "image": "/images/slide_two.webp",
+        "title": "Elegantna Vrata",
+        "subtitle": "Sigurnost, izolacija i sofisticiran izgled"
+      },
+      {
+        "image": "/images/slide_tree.webp",
+        "title": "Klizni Sistemi",
+        "subtitle": "Jednostavno upravljanje i bezvremenski dizajn"
+      },
+      {
+        "image": "/images/slide_four.webp",
+        "title": "Staklene Pregrade",
+        "subtitle": "Optimizujte prostor uz inovativna rešenja"
+      },
+      {
+        "image": "/images/slide_five.webp",
+        "title": "Kompletna Rešenja",
+        "subtitle": "Sinergija prozora, vrata i kliznih sistema za savršen izgled"
+      }
+    ]
+  },
+  "about": {
+    "title": "Kreiramo Vrhunske Proizvode",
+    "description": "Već decenijama stvaramo proizvode koji unose eleganciju, sigurnost i funkcionalnost u vaše domove i poslovne prostore. Naš tim stručnjaka garantuje inovativna rešenja koja transformišu svaki prostor.",
+    "cta": {
+      "text": "Saznajte više",
+      "link": "/o-nama"
+    },
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=600",
+        "alt": "Enterijer"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=600",
+        "alt": "Eksterijer"
+      }
+    ]
+  },
+  "featuredProjects": {
+    "title": "Naši Projekti",
+    "subtitle": "Pogledajte neke od naših najznačajnijih realizacija",
+    "cta": {
+      "text": "Pogledajte sve projekte",
+      "link": "/galerija"
+    },
+    "projects": [
+      {
+        "title": "Moderna Vila",
+        "category": "Rezidencijalno",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        "title": "Gradska Kancelarija",
+        "category": "Komercijalno",
+        "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        "title": "Urbani Loft",
+        "category": "Enterijer",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800"
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Zašto izabrati naše proizvode?",
+    "features": [
+      {
+        "title": "Energetska efikasnost",
+        "description": "Naši proizvodi premašuju industrijske standarde za toplotnu izolaciju."
+      },
+      {
+        "title": "Zvučna izolacija",
+        "description": "Napredna tehnologija za optimalno smanjenje buke."
+      },
+      {
+        "title": "10-godišnja garancija",
+        "description": "Ponosni smo na našu garanciju koja pokriva sve proizvode."
+      },
+      {
+        "title": "Profesionalna ugradnja",
+        "description": "Stručni timovi za ugradnju osiguravaju savršeno uklapanje i funkcionalnost."
+      }
+    ]
+  },
+  "partnersAndTestimonials": {
+    "title": "Poverenje lidera u industriji",
+    "description": "Naša posvećenost kvalitetu osvojila je poverenje vodećih arhitekata, izvođača i vlasnika kuća širom regiona.",
+    "partners": [
+      {
+        "name": "Radnički 1923",
+        "logo": "/images/partners/radnicki1923.webp"
+      },
+      {
+        "name": "Lioneight",
+        "logo": "/images/partners/lioneight.webp"
+      },
+      {
+        "name": "Tempo Tehnika",
+        "logo": "/images/partners/tempotehnika.webp"
+      },
+      {
+        "name": "Termin Invest",
+        "logo": "/images/partners/termin_invest.png"
+      },
+      {
+        "name": "Beavers group",
+        "logo": "/images/partners/beavers.png"
+      },
+      {
+        "name": "Hotel Kragujevac",
+        "logo": "/images/partners/hotelkragujevac.png"
+      },
+      {
+        "name": "KMC Company doo",
+        "logo": "/images/partners/kmc.png"
+      },
+      {
+        "name": "Škola \"Milutin i Draginja Todorović\"",
+        "logo": "/images/partners/os_milutin.png"
+      },
+      {
+        "name": "Škola \"Radoje Domanović\"",
+        "logo": "/images/partners/radoje-domanovic.png"
+      }
+    ],
+    "testimonials": [
+      {
+        "content": "Kvalitet i izrada njihovih prozora je izuzetan. Tim za ugradnju je profesionalan, efikasan i ostavio je objekat urednim.",
+        "author": "- -",
+        "role": "Direktor",
+        "company": "Hotel Kragujevac",
+        "image": "/images/testemonials/testemonials_hotelkragujevac.webp"
+      },
+      {
+        "content": "Za naš lokal smo naručili aluminijumski izlog i rezultat je fantastičan! Izuzetno kvalitetna izrada, moderan dizajn i vrhunska montaža. Naš prostor sada izgleda mnogo profesionalnije i privlačnije za kupce. Hvala vam na sjajnom poslu!",
+        "author": "Nenad Matanović",
+        "role": "Direktor",
+        "company": "Tempo Tehnika",
+        "image": "/images/testemonials/testemonials_tempotehnika.webp"
+      },
+      {
+        "content": "Škola \"Milutin i Draginja Todorović\" učešćem u Projektu, ostvarila je sredstva kod Ministarstva pravde koja su utrošena za zamenu unutrašnjih vrata na učionicama. Radovi su završeni u roku. Kvalitetom vrata i uslugom smo veoma zadovoljni. Profesionalizam za svaku preporuku!",
+        "author": "Marko Markovic",
+        "role": "Direktor",
+        "company": "Škola \"Milutin i Draginja Todorović\"",
+        "image": "/images/testemonials/testemonials_os_milutin.webp"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Spremni da započnete projekat?",
+    "description": "Kontaktirajte nas danas i saznajte kako možemo da vam pomognemo.",
+    "button": {
+      "text": "Kontaktirajte nas",
+      "link": "/kontakt"
+    }
+  }
+}

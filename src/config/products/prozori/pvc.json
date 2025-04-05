@@ -1,0 +1,86 @@
+{
+  "title": "PVC Prozori",
+  "subtitle": "Ekonomični i energetski efikasni PVC prozori, idealni za one koji traže odličan odnos cene i kvaliteta.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1920",
+    "alt": "PVC Prozori"
+  },
+  "features": [
+    {
+      "title": "Ekonomičnost",
+      "description": "Povoljna cena uz dugotrajnu upotrebu."
+    },
+    {
+      "title": "Energetska Efikasnost",
+      "description": "Dobar nivo izolacije za smanjenje potrošnje energije."
+    },
+    {
+      "title": "Lako Održavanje",
+      "description": "PVC ne zahteva mnogo održavanja i lako se čisti."
+    },
+    {
+      "title": "Otpornost na Vremenske Uslove",
+      "description": "Otpornost na UV zračenje i ekstremne vremenske uslove."
+    }
+  ],
+  "types": [
+    {
+      "name": "Standardni PVC",
+      "description": "Jednostavni i efikasni PVC prozori za standardne potrebe.",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "name": "Premium PVC",
+      "description": "Napredni PVC prozori sa poboljšanom izolacijom i estetikom.",
+      "image": "https://images.unsplash.com/photo-1581873372799-36f3c8e18372?auto=format&fit=crop&q=80&w=800"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800",
+      "title": "PVC Prozori Gallery 1",
+      "description": "Moderni PVC prozor u dnevnom prostoru."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1581873372799-36f3c8e18372?auto=format&fit=crop&q=80&w=800",
+      "title": "PVC Prozori Gallery 2",
+      "description": "PVC prozor sa modernim dizajnom i odličnom izolacijom."
+    }
+  ],
+  "technicalSpecifications": {
+    "left": [
+      {
+        "title": "Toplotna Izolacija",
+        "description": "Efikasna izolacija za uštedu energije."
+      },
+      {
+        "title": "Zvučna Izolacija",
+        "description": "Dobar nivo izolacije za smanjenje buke."
+      },
+      {
+        "title": "Otpornost na UV",
+        "description": "PVC materijal otporan na UV zračenje."
+      }
+    ],
+    "right": [
+      {
+        "title": "Dimenzije",
+        "description": "Izrada prozora po meri."
+      },
+      {
+        "title": "Debljina Profila",
+        "description": "Raspon od 70mm do 90mm, optimalno za izolaciju."
+      },
+      {
+        "title": "Staklo",
+        "description": "Mogućnost dvoslojnog ili troslojnog stakla."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Zainteresovani ste?",
+    "description": "Kontaktirajte nas za besplatnu konsultaciju i ponudu.",
+    "buttonText": "Kontaktirajte Nas",
+    "buttonLink": "/kontakt"
+  }
+}

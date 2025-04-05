@@ -1,0 +1,86 @@
+{
+  "title": "Aluminijumski Prozori",
+  "subtitle": "Moderni prozori izrađeni od aluminijuma, savršeni za savremene objekte. Nude minimalističko održavanje, dugotrajnost i vrhunsku izolaciju.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1920",
+    "alt": "Aluminijumski Prozori"
+  },
+  "features": [
+    {
+      "title": "Moderna Izrada",
+      "description": "Precizna izrada pomoću najnovijih tehnologija."
+    },
+    {
+      "title": "Minimalno Održavanje",
+      "description": "Aluminijum zahteva vrlo malo održavanja."
+    },
+    {
+      "title": "Otpornost na Vremenske Uslove",
+      "description": "Visoka otpornost na koroziju i sve vremenske uslove."
+    },
+    {
+      "title": "Energetska Efikasnost",
+      "description": "Izolacija koja doprinosi smanjenju potrošnje energije."
+    }
+  ],
+  "types": [
+    {
+      "name": "Standardni Aluminijum",
+      "description": "Klasik u aluminijum prozorima, elegantan i efikasan.",
+      "image": "https://images.unsplash.com/photo-1613390792897-aa0c06a52332?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "name": "Premium Aluminijum",
+      "description": "Vrhunski dizajn sa naprednim performansama i izolacijom.",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
+      "title": "Aluminijumski Prozori Gallery 1",
+      "description": "Moderan aluminijumski prozor u dnevnoj sobi."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1613390792897-aa0c06a52332?auto=format&fit=crop&q=80&w=800",
+      "title": "Aluminijumski Prozori Gallery 2",
+      "description": "Elegantni aluminijumski prozori u poslovnom prostoru."
+    }
+  ],
+  "technicalSpecifications": {
+    "left": [
+      {
+        "title": "Toplotna Izolacija",
+        "description": "Visok nivo izolacije za smanjenje gubitka toplote."
+      },
+      {
+        "title": "Zvučna Izolacija",
+        "description": "Optimizovana za smanjenje buke."
+      },
+      {
+        "title": "Otpornost na Koroziju",
+        "description": "Poseban tretman aluminijuma za dugotrajnost."
+      }
+    ],
+    "right": [
+      {
+        "title": "Dimenzije",
+        "description": "Izrada prozora po meri."
+      },
+      {
+        "title": "Debljina Profila",
+        "description": "Dizajnirani za optimalnu čvrstinu i izolaciju."
+      },
+      {
+        "title": "Okovi",
+        "description": "Kvalitetni okovi sa višestrukim tačkama zaključavanja."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Zainteresovani ste?",
+    "description": "Kontaktirajte nas za više informacija i besplatnu konsultaciju.",
+    "buttonText": "Zatražite Ponudu",
+    "buttonLink": "/kontakt"
+  }
+}

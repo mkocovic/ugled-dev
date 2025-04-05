@@ -1,0 +1,47 @@
+{
+  "introSection": {
+    "title": "Izvoz",
+    "text": "Kao lider u industriji, ponosni smo na našu sposobnost da isporučujemo visokokvalitetne proizvode klijentima širom sveta. Naša posvećenost kvalitetu i inovacijama učinila nas je pouzdanim partnerom na globalnom tržištu.",
+    "imageSrc": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200",
+    "imageAlt": "Global export"
+  },
+  "features": [
+    {
+      "icon": "Globe",
+      "title": "Prisutnost na tlu Evrope",
+      "description": "Izvozimo naše proizvode širom Evrope, garantujući kvalitet i pouzdanost."
+    },
+    {
+      "icon": "TrendingUp",
+      "title": "Rast i Razvoj",
+      "description": "Kontinuirano širimo našu mrežu partnera i tržišta."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Sertifikati Kvaliteta",
+      "description": "Posedujemo sve potrebne međunarodne sertifikate."
+    },
+    {
+      "icon": "Truck",
+      "title": "Logistika",
+      "description": "Obezbeđujemo siguran transport i praćenje pošiljki."
+    }
+  ],
+  "markets": {
+    "title": "Naša Tržišta",
+    "items": [
+      {
+        "title": "Evropska Unija",
+        "description": "Glavni izvozni partner sa dugogodišnjom tradicijom saradnje."
+      },
+      {
+        "title": "Bliski Istok",
+        "description": "Rastuće tržište sa velikim potencijalom za premium proizvode."
+      },
+      {
+        "title": "Severna Afrika",
+        "description": "Razvijamo nove poslovne prilike i partnerstva."
+      }
+    ]
+  }
+}

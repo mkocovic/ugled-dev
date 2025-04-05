@@ -1,0 +1,90 @@
+{
+  "title": "Ulazna Vrata",
+  "subtitle": "Sigurna i elegantna ulazna vrata koja kombinuju vrhunsku sigurnost sa modernim dizajnom.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1613390792897-aa0c06a52332?auto=format&fit=crop&q=80&w=1920",
+    "alt": "Ulazna Vrata"
+  },
+  "features": [
+    {
+      "title": "Vrhunska Sigurnost",
+      "description": "Napredni sistemi zaključavanja pružaju maksimalnu zaštitu.",
+      "icon": "Shield"
+    },
+    {
+      "title": "Termička Izolacija",
+      "description": "Izolacioni materijali štite od gubitka toplote.",
+      "icon": "ThermometerSun"
+    },
+    {
+      "title": "Zvučna Izolacija",
+      "description": "Dizajnirana za smanjenje buke sa spoljašnje strane.",
+      "icon": "Zap"
+    },
+    {
+      "title": "Protivprovalna Zaštita",
+      "description": "Robusna konstrukcija otežava neovlašćeni ulaz.",
+      "icon": "Lock"
+    }
+  ],
+  "types": [
+    {
+      "name": "Standardna Ulazna",
+      "description": "Klasična ulazna vrata sa pouzdanim zaključavanjem.",
+      "image": "https://images.unsplash.com/photo-1613390792897-aa0c06a52332?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "name": "Moderni Ulazna",
+      "description": "Savremeni dizajn sa elegantnim linijama i visokim standardima sigurnosti.",
+      "image": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&q=80&w=800"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1613390792897-aa0c06a52332?auto=format&fit=crop&q=80&w=800",
+      "title": "Ulazna Vrata Gallery 1",
+      "description": "Elegantna ulazna vrata u savremenom objektu."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&q=80&w=800",
+      "title": "Ulazna Vrata Gallery 2",
+      "description": "Detalj zaključavanja i dizajna."
+    }
+  ],
+  "technicalSpecifications": {
+    "left": [
+      {
+        "title": "Materijali",
+        "description": "Aluminijum(sa i bez termo prekida) i PVC."
+      },
+      {
+        "title": "Dimenzije",
+        "description": "Standardne i prilagođene dimenzije prema potrebama."
+      },
+      {
+        "title": "Sigurnosni Sistem",
+        "description": "Integrisani sigurnosni sistemi sa višestrukim tačkama zaključavanja."
+      }
+    ],
+    "right": [
+      {
+        "title": "Termička Izolacija",
+        "description": "Visok nivo izolacije za energetsku efikasnost."
+      },
+      {
+        "title": "Zvučna Izolacija",
+        "description": "Smanjuje nivo buke."
+      },
+      {
+        "title": "Ispune",
+        "description": "MDF, Aluminijum, PVC (debljine 24mm-70mm)."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Spremni za sigurnost?",
+    "description": "Kontaktirajte nas za detaljnu ponudu i konsultaciju.",
+    "buttonText": "Zatražite Ponudu",
+    "buttonLink": "/kontakt"
+  }
+}
