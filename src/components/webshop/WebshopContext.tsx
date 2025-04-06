@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
 
 interface CartItem {
   id: string;
@@ -19,13 +19,15 @@ interface CartItem {
 type UserType = 'individual' | 'company';
 
 interface ContactFormData {
-  userType: UserType;
   name: string;
-  company?: string;
   email: string;
   phone: string;
   address: string;
+  city: string;
+  postalCode: string;
   deliveryTime: string;
+  userType: 'individual' | 'company';
+  company?: string;
 }
 
 interface WebshopContextType {
@@ -57,6 +59,8 @@ export function WebshopProvider({ children }: { children: React.ReactNode }) {
     email: '',
     phone: '',
     address: '',
+    city: '',
+    postalCode: '',
     deliveryTime: ''
   });
 
@@ -111,22 +115,19 @@ export function WebshopProvider({ children }: { children: React.ReactNode }) {
       email: '',
       phone: '',
       address: '',
+      city: '',
+      postalCode: '',
       deliveryTime: ''
     });
     setCurrentStep(1);
   };
 
-  const canProceed = (() => {
-    if (currentStep === 1) return cart.length > 0;
-    if (currentStep === 2) {
-      const { name, email, phone, address, deliveryTime, userType, company } = contactForm;
-      if (userType === 'company') {
-        return name && email && phone && address && deliveryTime && company;
-      }
-      return name && email && phone && address && deliveryTime;
-    }
+  const canProceed = useMemo(() => {
+    if (!cart.length) return false;
+    if (!contactForm.name || !contactForm.email || !contactForm.phone) return false;
+    if (!contactForm.address || !contactForm.city || !contactForm.postalCode) return false;
     return true;
-  })();
+  }, [cart, contactForm]);
 
   return (
     <WebshopContext.Provider
@@ -144,7 +145,7 @@ export function WebshopProvider({ children }: { children: React.ReactNode }) {
         contactForm,
         updateContactForm,
         resetState,
-        canProceed
+        canProceed: Boolean(canProceed)
       }}
     >
       {children}
