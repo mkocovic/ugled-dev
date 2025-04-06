@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import React from "react";
@@ -11,6 +12,23 @@ import { LucideIcon } from "lucide-react";
 
 type SobnaFeatureIconKey = "Paintbrush" | "Ruler" | "Lock" | "Zap";
 
+=======
+'use client';
+
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import sobnaConfig from '@/config/products/vrata/sobna.json';
+import MiniGallery, { GalleryImage } from '@/components/MiniGallery';
+import BackButton from '@/components/BackButton';
+import { icons } from '@/config/icons';
+import { LucideIcon } from 'lucide-react';
+
+// Define the union of icon keys used in the sobna JSON
+type SobnaFeatureIconKey = "Paintbrush" | "Ruler" | "Lock" | "Zap";
+
+// Map icon keys to actual icon components
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 const featureIconMapping: Record<SobnaFeatureIconKey, LucideIcon> = {
   Paintbrush: icons.Paintbrush,
   Ruler: icons.Ruler,
@@ -24,6 +42,10 @@ export default function SobnaDoorsPage() {
   return (
     <div className="pt-32">
       <div className="container mx-auto px-6 md:px-12 py-16">
+<<<<<<< HEAD
+=======
+        {/* Responsive Header */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         <div className="flex flex-col md:flex-row-reverse md:items-center md:justify-between mb-4">
           <div className="mb-6 md:mb-0">
             <BackButton />
@@ -32,6 +54,10 @@ export default function SobnaDoorsPage() {
         </div>
         <p className="section-subtitle max-w-2xl mb-8">{subtitle}</p>
 
+<<<<<<< HEAD
+=======
+        {/* Hero Image */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         <div className="relative h-[600px] mb-24">
           <Image 
             src={heroImage.src} 
@@ -41,6 +67,10 @@ export default function SobnaDoorsPage() {
           />
         </div>
 
+<<<<<<< HEAD
+=======
+        {/* Features Grid */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         {features && (
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24">
             {features.map((feature: any, index: number) => {
@@ -48,7 +78,11 @@ export default function SobnaDoorsPage() {
               return (
                 <div
                   key={index}
+<<<<<<< HEAD
                   className="p-8 border border-[var(--glow-color)] transition-colors min-[990px]:hover:border-[var(--glow-color)]"
+=======
+                  className="p-8 border specs-border transition-colors hover:border-zinc-700"
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                 >
                   {IconComponent && (
                     <div className="text-zinc-400 mb-4">
@@ -63,6 +97,10 @@ export default function SobnaDoorsPage() {
           </div>
         )}
 
+<<<<<<< HEAD
+=======
+        {/* Types Section */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         {types && (
           <>
             <h2 className="text-3xl font-light mb-12">Vrste Sobnih Vrata</h2>
@@ -74,10 +112,17 @@ export default function SobnaDoorsPage() {
                       src={type.image} 
                       alt={type.name} 
                       fill 
+<<<<<<< HEAD
                       className="object-cover transition-transform duration-500 min-[990px]:group-hover:scale-110" 
                     />
                   </div>
                   <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 min-[990px]:group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+=======
+                      className="object-cover transition-transform duration-500 group-hover:scale-110" 
+                    />
+                  </div>
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                     <div className="text-center p-6">
                       <h3 className="text-2xl font-light mb-2">{type.name}</h3>
                       <p className="text-zinc-300">{type.description}</p>
@@ -89,6 +134,7 @@ export default function SobnaDoorsPage() {
           </>
         )}
 
+<<<<<<< HEAD
         {gallery && <MiniGallery galleryImages={gallery as GalleryImage[]} />}
 
         {technicalSpecifications && (
@@ -121,6 +167,44 @@ export default function SobnaDoorsPage() {
           </div>
         )}
 
+=======
+        {/* Mini Gallery */}
+        {gallery && <MiniGallery galleryImages={gallery as GalleryImage[]} />}
+
+        {/* Technical Specifications */}
+        {technicalSpecifications && (
+  <div className="mb-24">
+    <h2 className="text-3xl font-light mb-8">Tehničke Specifikacije</h2>
+    <div className="grid md:grid-cols-2 gap-8">
+      <div className="space-y-4">
+        {technicalSpecifications.left.map((spec: any, index: number) => (
+          <div
+            key={index}
+            className="p-4 border specs-border h-[100px] md:h-[150px] lg:h-[100px]"
+          >
+            <h3 className="font-light mb-2">{spec.title}</h3>
+            <p className="text-zinc-400">{spec.description}</p>
+          </div>
+        ))}
+      </div>
+      <div className="space-y-4">
+        {technicalSpecifications.right.map((spec: any, index: number) => (
+          <div
+            key={index}
+            className="p-4 border specs-border h-[100px] md:h-[150px] lg:h-[100px]"
+          >
+            <h3 className="font-light mb-2">{spec.title}</h3>
+            <p className="text-zinc-400">{spec.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+)}
+
+
+        {/* CTA */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         {cta && (
           <div className="text-center">
             <h2 className="text-3xl font-light mb-6">{cta.title}</h2>

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// src/config/icons.ts
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 import {
   LucideIcon,
   Shield,
@@ -22,10 +26,16 @@ import {
   Wrench,
   Settings,
   Users,
+<<<<<<< HEAD
   Globe,
   TrendingUp,
   ShieldCheck,
   SunSnow
+=======
+  Globe,        
+  TrendingUp,   
+  ShieldCheck   
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 } from 'lucide-react';
 
 export const icons: Record<string, LucideIcon> = {
@@ -51,8 +61,14 @@ export const icons: Record<string, LucideIcon> = {
   Wrench,
   Settings,
   Users,
+<<<<<<< HEAD
   Globe,
   TrendingUp,
   ShieldCheck,
   SunSnow
+=======
+  Globe,        
+  TrendingUp,   
+  ShieldCheck   
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 };

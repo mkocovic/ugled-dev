@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import React from "react";
@@ -9,12 +10,30 @@ import { LucideIcon } from "lucide-react";
 import MiniGallery, { GalleryImage } from "@/components/MiniGallery";
 import BackButton from "@/components/BackButton";
 
+=======
+'use client';
+
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { icons } from '@/config/icons';
+import pvcConfig from '@/config/products/prozori/pvc.json';
+import { LucideIcon } from 'lucide-react';
+import MiniGallery, { GalleryImage } from '@/components/MiniGallery';
+import BackButton from '@/components/BackButton';
+
+// Define the union type for PVC feature titles
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 type PVCFeatureTitle =
   | "Ekonomičnost"
   | "Energetska Efikasnost"
   | "Lako Održavanje"
   | "Otpornost na Vremenske Uslove";
 
+<<<<<<< HEAD
+=======
+// Map the feature titles to icon components
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 const pvcBenefitIconMapping: Record<PVCFeatureTitle, LucideIcon> = {
   Ekonomičnost: icons.Zap,
   "Energetska Efikasnost": icons.ThermometerSun,
@@ -28,6 +47,10 @@ export default function PVCWindowsPage() {
   return (
     <div className="pt-32">
       <div className="container mx-auto px-6 md:px-12 py-16">
+<<<<<<< HEAD
+=======
+        {/* Back Button & Title Row */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         <div className="flex flex-col md:flex-row-reverse md:items-center md:justify-between mb-4">
           <div className="mb-6 md:mb-0">
             <BackButton />
@@ -36,6 +59,10 @@ export default function PVCWindowsPage() {
         </div>
         <p className="section-subtitle max-w-2xl mb-8">{subtitle}</p>
 
+<<<<<<< HEAD
+=======
+        {/* Hero Image */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         <div className="relative h-[600px] mb-24">
           <Image
             src={heroImage.src}
@@ -45,15 +72,23 @@ export default function PVCWindowsPage() {
           />
         </div>
 
+<<<<<<< HEAD
+=======
+        {/* Features Grid */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         {features && (
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24">
             {features.map((feature: any, index: number) => {
               const IconComponent = pvcBenefitIconMapping[feature.title as PVCFeatureTitle];
               return (
+<<<<<<< HEAD
                 <div
                   key={index}
                   className="p-8 border border-[var(--glow-color)] transition-colors min-[990px]:hover:border-[var(--glow-color)]"
                 >
+=======
+                <div key={index} className="p-8 border specs-border transition-colors hover:border-zinc-700">
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                   {IconComponent && (
                     <div className="text-zinc-400 mb-4">
                       <IconComponent className="w-6 h-6" />
@@ -67,6 +102,10 @@ export default function PVCWindowsPage() {
           </div>
         )}
 
+<<<<<<< HEAD
+=======
+        {/* Types Section */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         {types && (
           <>
             <h2 className="text-3xl font-light mb-12">Vrste PVC Prozora</h2>
@@ -78,10 +117,17 @@ export default function PVCWindowsPage() {
                       src={type.image}
                       alt={type.name}
                       fill
+<<<<<<< HEAD
                       className="object-cover transition-transform duration-500 min-[990px]:group-hover:scale-110"
                     />
                   </div>
                   <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 min-[990px]:group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+=======
+                      className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+                  </div>
+                  <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                     <div className="text-center p-6">
                       <h3 className="text-2xl font-light mb-2">{type.name}</h3>
                       <p className="text-zinc-300">{type.description}</p>
@@ -93,6 +139,7 @@ export default function PVCWindowsPage() {
           </>
         )}
 
+<<<<<<< HEAD
         {gallery && <MiniGallery galleryImages={gallery as GalleryImage[]} />}
 
         {technicalSpecifications && (
@@ -125,6 +172,44 @@ export default function PVCWindowsPage() {
           </div>
         )}
 
+=======
+        {/* Mini Gallery Section */}
+        {gallery && <MiniGallery galleryImages={gallery as GalleryImage[]} />}
+
+        {/* Technical Specifications Section */}
+        {technicalSpecifications && (
+  <div className="mb-24">
+    <h2 className="text-3xl font-light mb-8">Tehničke Specifikacije</h2>
+    <div className="grid md:grid-cols-2 gap-8">
+      <div className="space-y-4">
+        {technicalSpecifications.left.map((spec: any, index: number) => (
+          <div
+            key={index}
+            className="p-4 border specs-border h-[100px] md:h-[150px] lg:h-[100px] flex flex-col overflow-hidden"
+          >
+            <h3 className="font-light mb-2">{spec.title}</h3>
+            <p className="text-zinc-400">{spec.description}</p>
+          </div>
+        ))}
+      </div>
+      <div className="space-y-4">
+        {technicalSpecifications.right.map((spec: any, index: number) => (
+          <div
+            key={index}
+            className="p-4 border specs-border h-[100px] md:h-[150px] lg:h-[100px] flex flex-col overflow-hidden"
+          >
+            <h3 className="font-light mb-2">{spec.title}</h3>
+            <p className="text-zinc-400">{spec.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+)}
+
+
+        {/* Call-to-Action Section */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         {cta && (
           <div className="mt-24 text-center">
             <h2 className="text-3xl font-light mb-6">{cta.title}</h2>

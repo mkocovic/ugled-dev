@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// src/app/kontakt/page.tsx
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 'use client';
 
 import React, { useState } from 'react';
@@ -8,10 +12,18 @@ import { z } from 'zod';
 import kontaktConfig from '@/config/kontakt.json';
 import BannerHeader from '@/components/BannerHeader';
 
+<<<<<<< HEAD
+=======
+// Regex for validating phone numbers
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 const phoneRegex = new RegExp(
   /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/ 
 );
 
+<<<<<<< HEAD
+=======
+// Schema for the contact form using Zod
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 const contactFormSchema = z.object({
   name: z
     .string()
@@ -89,6 +101,10 @@ export default function ContactPage() {
 
     try {
       const validatedData = contactFormSchema.parse(formData);
+<<<<<<< HEAD
+=======
+      // Simulate form submission delay
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
       toast.success('Poruka je uspešno poslata! Kontaktiraćemo vas uskoro.');
@@ -124,6 +140,10 @@ export default function ContactPage() {
 
   return (
     <>
+<<<<<<< HEAD
+=======
+      {/* Reusable Banner (same on all pages) */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
       <BannerHeader />
 
       <div className="pt-32">
@@ -138,6 +158,10 @@ export default function ContactPage() {
           </motion.div>
 
           <div className="grid lg:grid-cols-2 gap-12 mt-12">
+<<<<<<< HEAD
+=======
+            {/* Contact Form */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -261,20 +285,33 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   disabled={loading}
+<<<<<<< HEAD
                   className="button-primary w-full inline-flex items-center justify-center py-3 leading-none disabled:opacity-50"
+=======
+                  className="button-primary w-full flex items-center justify-center gap-2 disabled:opacity-50"
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                 >
                   {loading ? (
                     <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-black"></div>
                   ) : (
                     <>
+<<<<<<< HEAD
                       <Send size={18} className="inline-block mr-4" />
                       <span className="inline-block text-center">{form.submitButtonText}</span>
+=======
+                      <Send size={18} />
+                      {form.submitButtonText}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                     </>
                   )}
                 </button>
               </form>
             </motion.div>
 
+<<<<<<< HEAD
+=======
+            {/* Contact Info & Map */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -288,9 +325,15 @@ export default function ContactPage() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 + index * 0.1 }}
+<<<<<<< HEAD
                     className="p-6 bg-[rgba(182,155,95,0.05)] backdrop-blur-sm border border-[rgba(182,155,95,0.2)] rounded-lg transition-colors sm:group-hover:border-[rgba(182,155,95,0.4)] group"
                   >
                     <div className="text-zinc-400 transition-colors sm:group-hover:text-white mb-4">
+=======
+                    className="p-6 border border-zinc-800 hover:border-zinc-700 transition-colors group"
+                  >
+                    <div className="text-zinc-400 group-hover:text-white transition-colors mb-4">
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                       {(() => {
                         switch (info.icon) {
                           case 'MapPin':
@@ -312,7 +355,11 @@ export default function ContactPage() {
                         href={info.link}
                         target={info.link.startsWith('http') ? '_blank' : undefined}
                         rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+<<<<<<< HEAD
                         className="text-zinc-400 transition-colors sm:hover:text-white"
+=======
+                        className="text-zinc-400 hover:text-white transition-colors"
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                       >
                         {info.content}
                       </a>

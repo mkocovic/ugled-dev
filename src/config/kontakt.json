@@ -44,7 +44,11 @@
         },
         "subject": {
           "label": "Predmet *",
+<<<<<<< HEAD
           "placeholder": "Predmet poruke"
+=======
+          "placeholder": "Tema poruke"
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         },
         "message": {
           "label": "Poruka *",

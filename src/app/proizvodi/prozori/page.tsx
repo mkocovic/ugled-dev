@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import React from "react";
@@ -8,6 +9,20 @@ import prozoriConfig from "@/config/products/prozori/index.json";
 
 type BenefitIconKey = "Shield" | "Zap" | "ThermometerSun";
 
+=======
+'use client';
+
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { icons } from '@/config/icons';
+import prozoriConfig from '@/config/products/prozori/index.json';
+
+// Define a union type for the benefit icon keys that we expect.
+type BenefitIconKey = "Shield" | "Zap" | "ThermometerSun";
+
+// Create a mapping for benefit icons using our centralized icons.
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 const benefitIconMapping: Record<BenefitIconKey, typeof icons.Shield> = {
   Shield: icons.Shield,
   Zap: icons.Zap,
@@ -23,15 +38,23 @@ export default function WindowsPage() {
         <h1 className="section-title">{title}</h1>
         <p className="section-subtitle max-w-2xl">{description}</p>
 
+<<<<<<< HEAD
+=======
+        {/* Benefits Section */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         {benefits && (
           <div className="grid md:grid-cols-3 gap-8 mb-24">
             {benefits.map((benefit, index) => {
               const IconComponent = benefitIconMapping[benefit.icon as BenefitIconKey];
               return (
+<<<<<<< HEAD
                 <div
                   key={index}
                   className="p-6 border border-[var(--glow-color)] transition-colors min-[990px]:hover:border-[var(--glow-color)]"
                 >
+=======
+                <div key={index} className="p-6 border specs-border">
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                   <div className="text-zinc-400 mb-4">
                     {IconComponent && <IconComponent className="w-6 h-6" />}
                   </div>
@@ -43,6 +66,10 @@ export default function WindowsPage() {
           </div>
         )}
 
+<<<<<<< HEAD
+=======
+        {/* Product Types */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         <div className="space-y-24">
           {types?.map((type, index) => (
             <section key={index} className="scroll-mt-32" id={type.name.toLowerCase()}>
@@ -83,6 +110,10 @@ export default function WindowsPage() {
           ))}
         </div>
 
+<<<<<<< HEAD
+=======
+        {/* Contact CTA */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         <div className="mt-24 text-center">
           <h2 className="text-3xl font-light mb-6">{cta.title}</h2>
           <p className="text-zinc-400 mb-8">{cta.description}</p>

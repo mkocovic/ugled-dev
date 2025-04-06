@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+<<<<<<< HEAD
+=======
+      // your custom colors, fonts, container, etc.
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
       keyframes: {
         fadeInUp: {
           "0%": {

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// src/components/MiniGallery.tsx
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -113,6 +117,10 @@ const MiniGallery: React.FC<MiniGalleryProps> = ({ galleryImages }) => {
                     </motion.div>
                 </AnimatePresence>
 
+<<<<<<< HEAD
+=======
+                {/* Navigation Buttons */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                 <div className="absolute bottom-8 right-8 z-[1] flex items-center gap-4">
                     <button
                         className="w-12 h-12 flex items-center justify-center bg-black/50 text-white hover:bg-white hover:text-black transition-colors rounded-full"
@@ -130,6 +138,10 @@ const MiniGallery: React.FC<MiniGalleryProps> = ({ galleryImages }) => {
                     </button>
                 </div>
 
+<<<<<<< HEAD
+=======
+                {/* Slide Counter */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                 <div className="absolute bottom-8 left-8 z-[1] text-lg font-light">
                     <span className="text-2xl font-normal">
                         {(currentSlide + 1).toString().padStart(2, "0")}
@@ -140,6 +152,10 @@ const MiniGallery: React.FC<MiniGalleryProps> = ({ galleryImages }) => {
                     </span>
                 </div>
 
+<<<<<<< HEAD
+=======
+                {/* Progress Bar */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
                 <div className="absolute bottom-0 left-0 right-0 h-1 bg-white/10">
                     <motion.div
                         className="h-full bg-white"
@@ -155,6 +171,10 @@ const MiniGallery: React.FC<MiniGalleryProps> = ({ galleryImages }) => {
                 </div>
             </div>
 
+<<<<<<< HEAD
+=======
+            {/* Gallery Thumbnails */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
             <div className="p-4 flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
                 {galleryImages.map((image, index) => (
                     <button
@@ -179,6 +199,7 @@ const MiniGallery: React.FC<MiniGalleryProps> = ({ galleryImages }) => {
             </div>
 
             <div className="text-center mt-12">
+<<<<<<< HEAD
   <Link
     href="/galerija"
     className="button-primary flex flex-row items-center gap-2 whitespace-nowrap"
@@ -192,6 +213,19 @@ const MiniGallery: React.FC<MiniGalleryProps> = ({ galleryImages }) => {
 </div>
 
 
+=======
+                <Link
+                    href="/galerija"
+                    className="button-primary inline-flex items-center gap-2 group"
+                >
+                    Pogledajte Celu Galeriju
+                    <ArrowRight
+                        className="group-hover:translate-x-1 transition-transform"
+                        size={18}
+                    />
+                </Link>
+            </div>
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
         </div>
     );
 };

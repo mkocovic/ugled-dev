@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "header": {
     "logo": {
       "text": "Ugled",
@@ -89,3 +90,57 @@
     "copyright": "© 2024 Ugled. Sva prava zadržana."
   }
 }
+=======
+    "header": {
+      "logo": {
+        "text": "Ugled",
+        "fullText": "Ugled"
+      },
+      "navigation": [
+        { "href": "/", "label": "Početna" },
+        { "href": "/o-nama", "label": "O nama" },
+        { 
+          "href": "/proizvodi", 
+          "label": "Proizvodi",
+          "dropdown": [
+            { "href": "/proizvodi/prozori", "label": "Prozori" },
+            { "href": "/proizvodi/vrata", "label": "Vrata" },
+            { "href": "/proizvodi/roletne", "label": "Roletne" },
+            { "href": "/proizvodi/komarnici", "label": "Komarnici" },
+            { "href": "/proizvodi/staklene-pregrade", "label": "Staklene pregrade" },
+            { "href": "/proizvodi/klizni-sistemi", "label": "Klizni sistemi" }
+          ]
+        },
+        { "href": "/usluge", "label": "Usluge" },
+        { "href": "/izvoz", "label": "Izvoz" },
+        { "href": "/galerija", "label": "Galerija" },
+        { "href": "/blog", "label": "Blog" },
+        { "href": "/kontakt", "label": "Kontakt" }
+      ]
+    },
+    "footer": {
+      "description": "Kreiramo izuzetne proizvode od 1956. godine. Pretvaramo vašu viziju u stvarnost.",
+      "sections": {
+        "quickLinks": {
+          "title": "Brzi Linkovi"
+        },
+        "contact": {
+          "title": "Kontakt Informacije",
+          "address": "Cerovac bb, Kragujevac 34000",
+          "phone": "+381 63 123 4567",
+          "email": "info@ugled.rs"
+        },
+        "social": {
+          "title": "Pratite Nas",
+          "links": {
+            "facebook": "#",
+            "twitter": "#",
+            "instagram": "#"
+          }
+        }
+      },
+      "copyright": "© 2024 Ugled. Sva prava zadržana."
+    }
+  }
+  
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01

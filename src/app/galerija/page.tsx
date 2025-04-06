@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// src/app/galerija/page.tsx
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -49,6 +53,10 @@ export default function GalleryPage() {
 
   return (
     <>
+<<<<<<< HEAD
+=======
+      {/* Reusable Banner (same on all pages) */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
       <BannerHeader />
 
       <div className="pt-32">
@@ -58,6 +66,10 @@ export default function GalleryPage() {
             Istražite našu kolekciju proizvoda koji predstavljaju spoj inovativnog dizajna i vrhunske izrade.
           </p>
 
+<<<<<<< HEAD
+=======
+          {/* Category Filter */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
           <div className="flex flex-wrap gap-4 mb-12">
             {categories.map((category) => (
               <button
@@ -74,6 +86,10 @@ export default function GalleryPage() {
             ))}
           </div>
 
+<<<<<<< HEAD
+=======
+          {/* Gallery Grid */}
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
           {loading ? (
             <div className="flex justify-center items-center min-h-[400px]">
               <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-white"></div>
