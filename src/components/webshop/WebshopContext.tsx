@@ -31,9 +31,11 @@ interface ContactFormData {
 }
 
 interface WebshopContextType {
-  isOpen: boolean;
-  openModal: () => void;
-  closeModal: () => void;
+  isModalOpen: boolean;
+  openCartModal: () => void;
+  closeCartModal: () => void;
+  openQuoteModal: () => void;
+  closeQuoteModal: () => void;
   currentStep: number;
   setCurrentStep: (step: number) => void;
   nextStep: () => void;
@@ -50,7 +52,8 @@ interface WebshopContextType {
 const WebshopContext = createContext<WebshopContextType | undefined>(undefined);
 
 export function WebshopProvider({ children }: { children: React.ReactNode }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false);
   const [currentStep, setCurrentStep] = useState(1);
   const [cart, setCart] = useState<CartItem[]>([]);
   const [contactForm, setContactForm] = useState<ContactFormData>({
@@ -66,7 +69,7 @@ export function WebshopProvider({ children }: { children: React.ReactNode }) {
 
   // Disable body scroll when modal is open
   useEffect(() => {
-    if (isOpen) {
+    if (isModalOpen || isQuoteModalOpen) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'unset';
@@ -74,11 +77,17 @@ export function WebshopProvider({ children }: { children: React.ReactNode }) {
     return () => {
       document.body.style.overflow = 'unset';
     };
-  }, [isOpen]);
+  }, [isModalOpen, isQuoteModalOpen]);
 
-  const openModal = () => setIsOpen(true);
-  const closeModal = () => {
-    setIsOpen(false);
+  const openCartModal = () => setIsModalOpen(true);
+  const closeCartModal = () => {
+    setIsModalOpen(false);
+    resetState();
+  };
+
+  const openQuoteModal = () => setIsQuoteModalOpen(true);
+  const closeQuoteModal = () => {
+    setIsQuoteModalOpen(false);
     resetState();
   };
 
@@ -132,9 +141,11 @@ export function WebshopProvider({ children }: { children: React.ReactNode }) {
   return (
     <WebshopContext.Provider
       value={{
-        isOpen,
-        openModal,
-        closeModal,
+        isModalOpen,
+        openCartModal,
+        closeCartModal,
+        openQuoteModal,
+        closeQuoteModal,
         currentStep,
         setCurrentStep,
         nextStep,

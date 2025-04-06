@@ -1,36 +1,48 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useEffect, useState } from 'react';
+import { ShoppingCart } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { useWebshop } from './webshop/WebshopContext';
 
 export default function WebshopButton() {
-  const [isVisible, setIsVisible] = useState(false);
-  const { openModal } = useWebshop();
+  const { openCartModal } = useWebshop();
+  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    const handleScroll = () => {
-      // Show button after scrolling 300px
-      setIsVisible(window.scrollY > 300);
-    };
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(false);
+        } else {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.1 }
+    );
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    // Find the footer element
+    const footer = document.querySelector('footer');
+    if (footer) {
+      observer.observe(footer);
+    }
+
+    return () => observer.disconnect();
   }, []);
 
   return (
-    <AnimatePresence>
-      {isVisible && (
-        <motion.button
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 20 }}
-          onClick={openModal}
-          className="fixed bottom-6 right-6 bg-[var(--glow-color)] text-white px-6 py-3 rounded-full shadow-lg hover:bg-[var(--glow-color)]/90 transition-colors z-50"
-        >
-          <span>Zatraži ponudu</span>
-        </motion.button>
-      )}
-    </AnimatePresence>
+    <motion.button
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ 
+        opacity: isVisible ? 1 : 0,
+        y: isVisible ? 0 : 20
+      }}
+      transition={{ duration: 0.3 }}
+      onClick={openCartModal}
+      className="fixed bottom-8 right-8 bg-[var(--glow-color)] text-white p-4 rounded-full shadow-lg hover:shadow-[var(--glow-color)]/20 transition-all z-50"
+      aria-label="Webshop"
+    >
+      <ShoppingCart className="w-6 h-6" />
+    </motion.button>
   );
 } 
