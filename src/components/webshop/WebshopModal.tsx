@@ -8,12 +8,17 @@ import ContactForm from './steps/ContactForm';
 import Submission from './steps/Submission';
 
 export default function WebshopModal() {
+<<<<<<< HEAD
   const { isQuoteModalOpen, closeQuoteModal, currentStep, cart, removeFromCart, nextStep, prevStep, canProceed } = useWebshop();
+=======
+  const { isOpen, closeModal, currentStep, cart, removeFromCart, nextStep, prevStep, canProceed } = useWebshop();
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
   const [showCart, setShowCart] = useState(false);
 
   const handleClose = useCallback(() => {
     if (currentStep > 1) {
       if (window.confirm('Da li ste sigurni da želite da zatvorite formu? Vaši podaci će biti izgubljeni.')) {
+<<<<<<< HEAD
         closeQuoteModal();
         setShowCart(false);
       }
@@ -22,12 +27,26 @@ export default function WebshopModal() {
       setShowCart(false);
     }
   }, [closeQuoteModal, currentStep]);
+=======
+        closeModal();
+        setShowCart(false);
+      }
+    } else {
+      closeModal();
+      setShowCart(false);
+    }
+  }, [closeModal, currentStep]);
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 
   const handleCartClose = useCallback(() => {
     setShowCart(false);
   }, []);
 
+<<<<<<< HEAD
   if (!isQuoteModalOpen) return null;
+=======
+  if (!isOpen) return null;
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 
   return (
     <>
@@ -59,9 +78,15 @@ export default function WebshopModal() {
                 </button>
               )}
               <h2 id="modal-title" className="text-lg font-medium text-white">
+<<<<<<< HEAD
                 {currentStep === 0 && 'Izaberite proizvode'}
                 {currentStep === 1 && 'Kontakt informacije'}
                 {currentStep === 2 && 'Pregled upita'}
+=======
+                {currentStep === 1 && 'Izaberite proizvode'}
+                {currentStep === 2 && 'Kontakt informacije'}
+                {currentStep === 3 && 'Pregled upita'}
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
               </h2>
             </div>
             <button
@@ -76,9 +101,15 @@ export default function WebshopModal() {
           {/* Content */}
           <div className="flex-1 overflow-y-auto custom-scrollbar">
             <div className="p-4">
+<<<<<<< HEAD
               {currentStep === 0 && <ProductSelection />}
               {currentStep === 1 && <ContactForm />}
               {currentStep === 2 && <Submission />}
+=======
+              {currentStep === 1 && <ProductSelection />}
+              {currentStep === 2 && <ContactForm />}
+              {currentStep === 3 && <Submission />}
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
             </div>
           </div>
 
@@ -116,7 +147,11 @@ export default function WebshopModal() {
                   aria-disabled={!canProceed}
                 >
                   <span>
+<<<<<<< HEAD
                     {currentStep === 0 ? 'Kontakt informacije' : 'Pregled upita'}
+=======
+                    {currentStep === 1 ? 'Kontakt informacije' : 'Pregled upita'}
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
                   </span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
@@ -172,10 +207,24 @@ export default function WebshopModal() {
                     {cart.map((item) => (
                       <li key={item.id} className="bg-zinc-900/50 rounded-xl p-4 glass-effect" role="listitem">
                         <div className="flex justify-between items-start mb-4">
+<<<<<<< HEAD
                           <h4 className="text-base font-medium text-white">
                             {item.type === 'window' ? 'Prozor' : 'Vrata'}
                             {item.options.doorType && ` - ${item.options.doorType === 'ulazna' ? 'Ulazna' : 'Sobna'}`}
                           </h4>
+=======
+                          <div className="flex items-center gap-3">
+                            {item.type === 'window' ? (
+                              <Wind className="w-5 h-5 text-[var(--glow-color)]" />
+                            ) : (
+                              <DoorOpen className="w-5 h-5 text-[var(--glow-color)]" />
+                            )}
+                            <h4 className="text-base font-medium text-white">
+                              {item.type === 'window' ? 'Prozor' : 'Vrata'}
+                              {item.options.doorType && ` - ${item.options.doorType}`}
+                            </h4>
+                          </div>
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
                           <button
                             onClick={() => removeFromCart(item.id)}
                             className="text-zinc-400 hover:text-red-400 transition-colors p-2 rounded-full hover:bg-zinc-800"
@@ -184,6 +233,7 @@ export default function WebshopModal() {
                             <Trash2 className="w-4 h-4" />
                           </button>
                         </div>
+<<<<<<< HEAD
                         
                         <div className="space-y-3">
                           <div className="flex flex-col gap-1">
@@ -253,6 +303,42 @@ export default function WebshopModal() {
                               </div>
                             </div>
                           )}
+=======
+                        <div className="space-y-3 text-sm">
+                          <div className="flex items-center gap-2">
+                            <span className="text-zinc-400">Materijal:</span>
+                            <span className="text-white">{item.options.material}</span>
+                          </div>
+                          {item.options.style && (
+                            <div className="flex items-center gap-2">
+                              <span className="text-zinc-400">Stil:</span>
+                              <span className="text-white">{item.options.style}</span>
+                            </div>
+                          )}
+                          {(item.options.hasRoletne || item.options.hasKomarnici) && (
+                            <div className="flex items-center gap-2">
+                              <span className="text-zinc-400">Dodatne opcije:</span>
+                              <div className="flex items-center gap-3">
+                                {item.options.hasRoletne && (
+                                  <span className="flex items-center gap-2 text-white">
+                                    <Sun className="w-4 h-4 text-[var(--glow-color)]" />
+                                    Sa roletnama
+                                  </span>
+                                )}
+                                {item.options.hasKomarnici && (
+                                  <span className="flex items-center gap-2 text-white">
+                                    <Bug className="w-4 h-4 text-[var(--glow-color)]" />
+                                    Sa komarnicima
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          )}
+                          <div className="flex items-center gap-2">
+                            <span className="text-zinc-400">Količina:</span>
+                            <span className="text-white">{item.quantity}</span>
+                          </div>
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
                         </div>
                       </li>
                     ))}

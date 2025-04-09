@@ -9,13 +9,21 @@
         "lint": "next lint"
     },
     "dependencies": {
+<<<<<<< HEAD
+=======
+        "@hookform/resolvers": "^5.0.1",
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
         "framer-motion": "^12.4.3",
         "lucide-react": "^0.344.0",
         "next": "^14.1.0",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "react-fast-marquee": "^1.6.5",
+<<<<<<< HEAD
         "resend": "^4.2.0",
+=======
+        "react-hook-form": "^7.55.0",
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
         "sonner": "^1.7.4",
         "zod": "^3.24.2"
     },

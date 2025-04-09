@@ -1,6 +1,10 @@
 'use client';
 
+<<<<<<< HEAD
 import React, { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
+=======
+import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 
 interface CartItem {
   id: string;
@@ -10,6 +14,7 @@ interface CartItem {
     style?: string;
     hasRoletne?: boolean;
     hasKomarnici?: boolean;
+<<<<<<< HEAD
     hasSpoljasnjeOkapnice?: boolean;
     hasUnutrasnjeOkapnice?: boolean;
     doorType?: 'ulazna' | 'sobna';
@@ -20,6 +25,9 @@ interface CartItem {
       width: number;
       height: number;
     };
+=======
+    doorType?: 'ulazna' | 'sobna';
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
   };
   additionalFeatures: string[];
   quantity: number;
@@ -35,14 +43,20 @@ interface ContactFormData {
   city: string;
   postalCode: string;
   deliveryTime: string;
+<<<<<<< HEAD
   message?: string;
+=======
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
   userType: 'individual' | 'company';
   company?: string;
 }
 
 interface WebshopContextType {
   isModalOpen: boolean;
+<<<<<<< HEAD
   isQuoteModalOpen: boolean;
+=======
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
   openCartModal: () => void;
   closeCartModal: () => void;
   openQuoteModal: () => void;
@@ -52,7 +66,11 @@ interface WebshopContextType {
   nextStep: () => void;
   prevStep: () => void;
   cart: CartItem[];
+<<<<<<< HEAD
   addToCart: (item: Omit<CartItem, 'id'>) => void;
+=======
+  addToCart: (item: Omit<CartItem, 'id' | 'quantity'>) => void;
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
   removeFromCart: (id: string) => void;
   contactForm: ContactFormData;
   updateContactForm: (data: Partial<ContactFormData>) => void;
@@ -65,7 +83,11 @@ const WebshopContext = createContext<WebshopContextType | undefined>(undefined);
 export function WebshopProvider({ children }: { children: React.ReactNode }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false);
+<<<<<<< HEAD
   const [currentStep, setCurrentStep] = useState(0);
+=======
+  const [currentStep, setCurrentStep] = useState(1);
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
   const [cart, setCart] = useState<CartItem[]>([]);
   const [contactForm, setContactForm] = useState<ContactFormData>({
     userType: 'individual',
@@ -90,26 +112,35 @@ export function WebshopProvider({ children }: { children: React.ReactNode }) {
     };
   }, [isModalOpen, isQuoteModalOpen]);
 
+<<<<<<< HEAD
   const openCartModal = () => {
     setIsModalOpen(true);
     setCurrentStep(0); // Resetujemo korak na 0 kada se modal otvori
   };
 
+=======
+  const openCartModal = () => setIsModalOpen(true);
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
   const closeCartModal = () => {
     setIsModalOpen(false);
     resetState();
   };
 
+<<<<<<< HEAD
   const openQuoteModal = () => {
     setIsQuoteModalOpen(true);
     setCurrentStep(0); // Resetujemo korak na 0 kada se modal otvori
   };
 
+=======
+  const openQuoteModal = () => setIsQuoteModalOpen(true);
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
   const closeQuoteModal = () => {
     setIsQuoteModalOpen(false);
     resetState();
   };
 
+<<<<<<< HEAD
   const canProceed = useMemo(() => {
     switch (currentStep) {
       case 0:
@@ -157,6 +188,21 @@ export function WebshopProvider({ children }: { children: React.ReactNode }) {
     const newItem: CartItem = {
       ...item,
       id: Math.random().toString(36).substr(2, 9)
+=======
+  const nextStep = () => {
+    if (currentStep === 1 && cart.length === 0) return;
+    if (currentStep === 2 && !canProceed) return;
+    setCurrentStep(prev => Math.min(prev + 1, 3));
+  };
+
+  const prevStep = () => setCurrentStep(prev => Math.max(prev - 1, 1));
+
+  const addToCart = (item: Omit<CartItem, 'id' | 'quantity'>) => {
+    const newItem: CartItem = {
+      ...item,
+      id: Math.random().toString(36).substr(2, 9),
+      quantity: 1
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
     };
     setCart(prev => [...prev, newItem]);
   };
@@ -181,14 +227,30 @@ export function WebshopProvider({ children }: { children: React.ReactNode }) {
       postalCode: '',
       deliveryTime: ''
     });
+<<<<<<< HEAD
     setCurrentStep(0);
   };
 
+=======
+    setCurrentStep(1);
+  };
+
+  const canProceed = useMemo(() => {
+    if (!cart.length) return false;
+    if (!contactForm.name || !contactForm.email || !contactForm.phone) return false;
+    if (!contactForm.address || !contactForm.city || !contactForm.postalCode) return false;
+    return true;
+  }, [cart, contactForm]);
+
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
   return (
     <WebshopContext.Provider
       value={{
         isModalOpen,
+<<<<<<< HEAD
         isQuoteModalOpen,
+=======
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
         openCartModal,
         closeCartModal,
         openQuoteModal,

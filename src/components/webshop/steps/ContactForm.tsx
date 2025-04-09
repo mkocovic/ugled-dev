@@ -2,24 +2,43 @@
 
 import React from 'react';
 import { useWebshop } from '../WebshopContext';
+<<<<<<< HEAD
 import { Clock, Calendar, CalendarDays, User, Building2, Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
 
 export const DELIVERY_OPTIONS = [
   { 
     id: '15days', 
     label: '15 dana', 
+=======
+import { Clock, Calendar, CalendarDays, User, Building2, Mail, Phone, MapPin } from 'lucide-react';
+
+const DELIVERY_OPTIONS = [
+  { 
+    id: '2months', 
+    label: 'Do 2 meseca', 
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
     description: 'Najbrže moguće isporučivanje',
     icon: <Clock size={20} className="text-[var(--glow-color)]" />
   },
   { 
+<<<<<<< HEAD
     id: '1month', 
     label: '1 mesec', 
+=======
+    id: '3-6months', 
+    label: '3-6 meseci', 
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
     description: 'Standardno vreme isporuke',
     icon: <Calendar size={20} className="text-[var(--glow-color)]" />
   },
   { 
+<<<<<<< HEAD
     id: '3+months', 
     label: '3+ meseci', 
+=======
+    id: '6+months', 
+    label: '6+ meseci', 
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
     description: 'Dugoročno planiranje',
     icon: <CalendarDays size={20} className="text-[var(--glow-color)]" />
   }
@@ -170,6 +189,7 @@ export default function ContactForm() {
               required
             />
           </div>
+<<<<<<< HEAD
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="space-y-2">
@@ -205,6 +225,8 @@ export default function ContactForm() {
               />
             </div>
           </div>
+=======
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
         </div>
       </div>
 
@@ -236,6 +258,7 @@ export default function ContactForm() {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
 
       {/* Dodatna poruka */}
       <div className="bg-zinc-900/50 rounded-xl overflow-hidden">
@@ -261,6 +284,8 @@ export default function ContactForm() {
           </div>
         </div>
       </div>
+=======
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
     </div>
   );
 } 

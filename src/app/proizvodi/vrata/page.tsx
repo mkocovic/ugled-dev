@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 "use client";
 
 import React from "react";
@@ -9,6 +13,24 @@ import { LucideIcon } from "lucide-react";
 
 type DoorBenefitIconKey = "Shield" | "Lock" | "Paintbrush";
 
+<<<<<<< HEAD
+=======
+=======
+'use client';
+
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { icons } from '@/config/icons';
+import vrataConfig from '@/config/products/vrata/index.json';
+import { LucideIcon } from 'lucide-react';
+
+// Define a union type for the benefit icon keys used in the doors config.
+type DoorBenefitIconKey = "Shield" | "Lock" | "Paintbrush";
+
+// Create a mapping for benefit icons.
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 const benefitIconMapping: Record<DoorBenefitIconKey, LucideIcon> = {
   Shield: icons.Shield,
   Lock: icons.Lock,
@@ -30,7 +52,15 @@ export default function DoorsPage() {
             {benefits.map((benefit, index) => {
               const IconComponent = benefitIconMapping[benefit.icon as DoorBenefitIconKey];
               return (
+<<<<<<< HEAD
                 <div key={index} className="p-6 border border-[var(--glow-color)]">
+=======
+<<<<<<< HEAD
+                <div key={index} className="p-6 border border-[var(--glow-color)]">
+=======
+                <div key={index} className="p-6 border specs-border">
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
                   <div className="text-zinc-400 mb-4">
                     {IconComponent && <IconComponent className="w-6 h-6" />}
                   </div>

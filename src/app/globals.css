@@ -5,7 +5,14 @@
 
 @layer base {
   :root {
+<<<<<<< HEAD
     --font-family: 'Didact Gothic', sans-serif;
+=======
+<<<<<<< HEAD
+    --font-family: 'Didact Gothic', sans-serif;
+=======
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
     --bg-color: #272727;
     --glow-color: rgb(182, 155, 95);
     --corner-border-color: var(--glow-color);
@@ -20,6 +27,10 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 /* Custom Scrollbar */
 .custom-scrollbar {
   scrollbar-width: thin;
@@ -43,12 +54,25 @@
   background-color: rgba(182, 155, 95, 0.8);
 }
 
+<<<<<<< HEAD
 /* Make sure your icons get that gold stroke color */
+=======
+=======
+/* Make sure your icons get that gold stroke color. */
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 svg {
   stroke: var(--glow-color);
 }
 
+<<<<<<< HEAD
 /* Common Classes */
+=======
+<<<<<<< HEAD
+=======
+/* Common Classes */
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 .section-title {
   @apply text-4xl md:text-5xl font-light mb-6;
 }
@@ -65,7 +89,14 @@ svg {
   @apply inline-flex items-center gap-2 text-white hover:text-zinc-300 transition-colors;
 }
 
+<<<<<<< HEAD
 /* Glass effect */
+=======
+<<<<<<< HEAD
+=======
+/* Glass effect from second snippet */
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 .glass-effect {
   background: rgba(182, 155, 95, 0.05);
   backdrop-filter: blur(10px);
@@ -81,11 +112,20 @@ svg {
   box-shadow: 0 8px 32px 0 rgba(182, 155, 95, 0.1);
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.gold-accent {
+  color: var(--glow-color);
+}
+=======
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
 /* Gold accent color class */
 .gold-accent {
   color: var(--glow-color);
 }
 
+<<<<<<< HEAD
 /* Modal styles */
 .modal-overlay {
   position: fixed;
@@ -112,3 +152,7 @@ svg {
   overflow-y: auto;
   z-index: 101;
 }
+=======
+/* You can also copy the rest from your snippet if needed */
+>>>>>>> b175e7001d43fbb64383e8d7cb893b4812f6fc01
+>>>>>>> f38c0df38b5632c24ec62881b3ce72080631ec20
