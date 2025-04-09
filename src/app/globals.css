@@ -1,0 +1,114 @@
+/* Css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-family: 'Didact Gothic', sans-serif;
+    --bg-color: #272727;
+    --glow-color: rgb(182, 155, 95);
+    --corner-border-color: var(--glow-color);
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --muted: 240 5% 64%;
+    --accent: 240 5% 84%;
+  }
+
+  body {
+    @apply bg-[var(--bg-color)] text-white antialiased;
+  }
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--glow-color) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--glow-color);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(182, 155, 95, 0.8);
+}
+
+/* Make sure your icons get that gold stroke color */
+svg {
+  stroke: var(--glow-color);
+}
+
+/* Common Classes */
+.section-title {
+  @apply text-4xl md:text-5xl font-light mb-6;
+}
+
+.section-subtitle {
+  @apply text-zinc-400 mb-8;
+}
+
+.button-primary {
+  @apply inline-block bg-white text-black py-4 px-8 hover:bg-zinc-200 transition-colors;
+}
+
+.button-outline {
+  @apply inline-flex items-center gap-2 text-white hover:text-zinc-300 transition-colors;
+}
+
+/* Glass effect */
+.glass-effect {
+  background: rgba(182, 155, 95, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(182, 155, 95, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(182, 155, 95, 0.05);
+  transition: all 0.3s ease;
+}
+
+.glass-effect:hover {
+  background: rgba(182, 155, 95, 0.1);
+  border-color: rgba(182, 155, 95, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(182, 155, 95, 0.1);
+}
+
+/* Gold accent color class */
+.gold-accent {
+  color: var(--glow-color);
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  position: relative;
+  background: var(--bg-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  z-index: 101;
+}

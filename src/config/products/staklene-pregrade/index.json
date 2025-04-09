@@ -1,0 +1,95 @@
+{
+  "title": "Staklene Pregrade",
+  "subtitle": "Moderne staklene pregrade koje kombinuju funkcionalnost i estetiku, stvarajući svetle i elegantne prostore.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=1920",
+    "alt": "Staklene Pregrade"
+  },
+  "features": [
+    {
+      "title": "Prostornost",
+      "description": "Stvaranje otvorenog i svetlog prostora.",
+      "icon": "Maximize2"
+    },
+    {
+      "title": "Prirodno Svetlo",
+      "description": "Maksimalno iskorišćenje dnevne svetlosti.",
+      "icon": "Sun"
+    },
+    {
+      "title": "Akustika",
+      "description": "Odlična zvučna izolacija.",
+      "icon": "Waves"
+    },
+    {
+      "title": "Sigurnost",
+      "description": "Kaljeno i laminirano staklo za dodatnu sigurnost.",
+      "icon": "Shield"
+    }
+  ],
+  "types": [
+    {
+      "name": "Fiksne Pregrade",
+      "description": "Elegantna rešenja za podelu prostora.",
+      "image": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "name": "Klizne Pregrade",
+      "description": "Fleksibilnost u organizaciji prostora.",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "name": "Harmonika Pregrade",
+      "description": "Maksimalna prilagodljivost za promenjive potrebe.",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=800",
+      "title": "Staklene Pregrade Gallery 1",
+      "description": "Staklene pregrade u modernom dizajnu."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800",
+      "title": "Staklene Pregrade Gallery 2",
+      "description": "Detalji staklenih pregrada."
+    }
+  ],
+  "technicalSpecifications": {
+    "left": [
+      {
+        "title": "Vrste Stakla",
+        "description": "Kaljeno i Laminirano."
+      },
+      {
+        "title": "Debljina Stakla",
+        "description": "10mm, 12mm, 16mm."
+      },
+      {
+        "title": "Završna Obrada",
+        "description": "Providno, Matirano, Dekorativno."
+      }
+    ],
+    "right": [
+      {
+        "title": "Profili",
+        "description": "Aluminijumski, Minimalistički."
+      },
+      {
+        "title": "Okovi",
+        "description": "Visokokvalitetni prohromski okovi."
+      },
+      {
+        "title": "Zvučna Izolacija",
+        "description": "Do 45 dB."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Zainteresovani ste?",
+    "description": "Kontaktirajte nas za više informacija i besplatnu konsultaciju.",
+    "buttonText": "Zatražite Ponudu",
+    "buttonLink": "/kontakt"
+  }
+}

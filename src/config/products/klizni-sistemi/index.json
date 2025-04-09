@@ -1,0 +1,95 @@
+{
+  "title": "Klizni Sistemi",
+  "subtitle": "Inovativna rešenja za modernu arhitekturu, kombinujući funkcionalnost i estetiku.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1600585154526-6940a5e7e2df?auto=format&fit=crop&q=80&w=1920",
+    "alt": "Klizni Sistemi"
+  },
+  "features": [
+    {
+      "title": "Ušteda Prostora",
+      "description": "Optimalno iskorišćenje prostora.",
+      "icon": "Maximize2"
+    },
+    {
+      "title": "Funkcionalnost",
+      "description": "Glatko i tiho klizanje.",
+      "icon": "Move"
+    },
+    {
+      "title": "Sigurnost",
+      "description": "Napredni sistemi zaključavanja.",
+      "icon": "Lock"
+    },
+    {
+      "title": "Izolacija",
+      "description": "Odlična termička izolacija.",
+      "icon": "Zap"
+    }
+  ],
+  "types": [
+    {
+      "name": "Podizno-klizni sistemi",
+      "description": "Idealni za velike staklene površine.",
+      "image": "https://images.unsplash.com/photo-1600585154526-6940a5e7e2df?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "name": "Harmonika sistemi",
+      "description": "Maksimalno otvaranje prostora.",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "name": "Klizni sistemi",
+      "description": "Klasična klizna rešenja.",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800",
+      "title": "Klizni Sistemi Gallery 1",
+      "description": "Inovativno klizno rešenje."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
+      "title": "Klizni Sistemi Gallery 2",
+      "description": "Detalj kliznog sistema."
+    }
+  ],
+  "technicalSpecifications": {
+    "left": [
+      {
+        "title": "Materijali",
+        "description": "Aluminijum, Drvo, PVC i Staklo."
+      },
+      {
+        "title": "Upravljanje",
+        "description": "Senzorno ili ručno."
+      },
+      {
+        "title": "Izolacija",
+        "description": "Termička i zvučna."
+      }
+    ],
+    "right": [
+      {
+        "title": "Dimenzije",
+        "description": "Prilagodljive potrebama."
+      },
+      {
+        "title": "Boje",
+        "description": "Širok izbor RAL boja."
+      },
+      {
+        "title": "Montaža",
+        "description": "Unutrašnja ili spoljašnja."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Zainteresovani ste?",
+    "description": "Kontaktirajte nas za više informacija i besplatnu konsultaciju.",
+    "buttonText": "Zatražite Ponudu",
+    "buttonLink": "/kontakt"
+  }
+}

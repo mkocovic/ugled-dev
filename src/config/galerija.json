@@ -1,0 +1,112 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "title": "PVC Prozori",
+        "category": "Prozori",
+        "subcategory": "PVC",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200",
+        "width": 600,
+        "height": 800
+      },
+      {
+        "id": 2,
+        "title": "Drveni Prozori",
+        "category": "Prozori",
+        "subcategory": "Drvo",
+        "image": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=1200",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "id": 3,
+        "title": "Aluminijumski Prozori",
+        "category": "Prozori",
+        "subcategory": "Aluminijum",
+        "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=1200",
+        "width": 600,
+        "height": 800
+      },
+      {
+        "id": 4,
+        "title": "Ulazna Vrata",
+        "category": "Vrata",
+        "image": "https://images.unsplash.com/photo-1613390792897-aa0c06a52332?auto=format&fit=crop&q=80&w=1200",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "id": 5,
+        "title": "Sobna Vrata",
+        "category": "Vrata",
+        "image": "https://images.unsplash.com/photo-1600585154526-6940a5e7e2df?auto=format&fit=crop&q=80&w=1200",
+        "width": 600,
+        "height": 800
+      },
+      {
+        "id": 6,
+        "title": "Spoljne Roletne",
+        "category": "Roletne",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1200",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "id": 7,
+        "title": "Unutrašnje Roletne",
+        "category": "Roletne",
+        "image": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&q=80&w=1200",
+        "width": 600,
+        "height": 800
+      },
+      {
+        "id": 8,
+        "title": "Fiksni Komarnici",
+        "category": "Komarnici",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "id": 9,
+        "title": "Rolo Komarnici",
+        "category": "Komarnici",
+        "image": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=1200",
+        "width": 600,
+        "height": 800
+      },
+      {
+        "id": 10,
+        "title": "Kancelarijske Pregrade",
+        "category": "Staklene Pregrade",
+        "image": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=1200",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "id": 11,
+        "title": "Tuš Kabine",
+        "category": "Staklene Pregrade",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1200",
+        "width": 600,
+        "height": 800
+      },
+      {
+        "id": 12,
+        "title": "Podizno-klizni Sistemi",
+        "category": "Klizni sistemi",
+        "image": "https://images.unsplash.com/photo-1600585154526-6940a5e7e2df?auto=format&fit=crop&q=80&w=1200",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "id": 13,
+        "title": "Harmonika Sistemi",
+        "category": "Klizni sistemi",
+        "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=1200",
+        "width": 600,
+        "height": 800
+      }
+    ]
+  }
+  

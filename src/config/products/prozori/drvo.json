@@ -1,0 +1,98 @@
+{
+  "title": "Drveni Prozori",
+  "subtitle": "Prirodna lepota i toplina drveta u kombinaciji sa modernom tehnologijom izrade za prozore koji će trajati generacijama.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=1920",
+    "alt": "Drveni prozori"
+  },
+  "features": [
+    {
+      "title": "Prirodni Materijal",
+      "description": "Izrađeni od najkvalitetnijeg drveta za dugotrajnu lepotu"
+    },
+    {
+      "title": "Precizna Izrada",
+      "description": "Vrhunska obrada i pažnja posvećena svakom detalju"
+    },
+    {
+      "title": "Završna Obrada",
+      "description": "Širok izbor boja i završnih premaza"
+    },
+    {
+      "title": "Zaštita",
+      "description": "Poseban tretman za dugotrajnu otpornost"
+    }
+  ],
+  "woodTypes": [
+    {
+      "name": "Hrast",
+      "description": "Izuzetna čvrstoća i klasičan izgled",
+      "image": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "name": "Smreka",
+      "description": "Odličan odnos cene i kvaliteta",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "name": "Mahagoni",
+      "description": "Ekskluzivan izgled i vrhunska trajnost",
+      "image": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&q=80&w=800"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1600585154526-6940a5e7e2df?auto=format&fit=crop&q=80",
+      "title": "Moderni drveni prozor",
+      "description": "Elegantni prozori sa minimalističkim okvirima"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80",
+      "title": "Klasični drveni prozor",
+      "description": "Tradicionalni dizajn sa modernim performansama"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80",
+      "title": "Drveni prozor sa griljama",
+      "description": "Savršena kombinacija estetike i funkcionalnosti"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80",
+      "title": "Panoramski drveni prozor",
+      "description": "Maksimalno iskorišćenje prirodnog svetla"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80",
+      "title": "Ugaoni drveni prozor",
+      "description": "Inovativna rešenja za moderne prostore"
+    }
+  ],
+  "technicalSpecifications": {
+    "left": [
+      {
+        "title": "Toplotna Izolacija",
+        "description": "Uw vrednost 0.75-1.1 W/m²K"
+      },
+      {
+        "title": "Zvučna Izolacija",
+        "description": "Do 45 dB"
+      }
+    ],
+    "right": [
+      {
+        "title": "Okovi",
+        "description": "Visokokvalitetni okovi sa više tačaka zaključavanja"
+      },
+      {
+        "title": "Zastakljivanje",
+        "description": "Dvostruko ili trostruko staklo"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Zainteresovani ste?",
+    "description": "Kontaktirajte nas za više informacija i besplatnu konsultaciju.",
+    "buttonText": "Zatražite Ponudu",
+    "buttonLink": "/kontakt"
+  }
+}

@@ -1,0 +1,74 @@
+{
+    "title": "Prozori",
+    "description": "Otkrijte našu premium kolekciju prozora izrađenih od najkvalitetnijih materijala, dizajniranih da unaprede vaš životni prostor kroz savršen spoj estetike i funkcionalnosti.",
+    "benefits": [
+      {
+        "icon": "Shield",
+        "title": "Sigurnost",
+        "description": "Napredni sistemi zaključavanja i ojačani profili"
+      },
+      {
+        "icon": "Zap",
+        "title": "Energetska efikasnost",
+        "description": "Vrhunska toplotna i zvučna izolacija"
+      },
+      {
+        "icon": "ThermometerSun",
+        "title": "Komfor",
+        "description": "Optimalna regulacija temperature i ventilacije"
+      }
+    ],
+    "types": [
+      {
+        "name": "Drvo",
+        "description": "Prirodna lepota i toplina drveta",
+        "image": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=800",
+        "features": [
+          "Prirodan izgled i toplina",
+          "Odlična izolacija",
+          "Ekološki prihvatljivo",
+          "Dugotrajnost"
+        ]
+      },
+      {
+        "name": "Aluminijum",
+        "description": "Moderni aluminijumski prozori za savremene objekte",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800",
+        "features": [
+          "Izuzetna čvrstoća",
+          "Minimalno održavanje",
+          "Moderna estetika",
+          "Otpornost na vremenske uslove"
+        ]
+      },
+      {
+        "name": "PVC",
+        "description": "Ekonomični i energetski efikasni PVC prozori",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800",
+        "features": [
+          "Odličan odnos cene i kvaliteta",
+          "Vrhunska termička izolacija",
+          "Lako održavanje",
+          "Dugotrajnost"
+        ]
+      },
+      {
+        "name": "Alu-drvo",
+        "description": "Kombinacija elegancije drveta i izdržljivosti aluminijuma",
+        "image": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&q=80&w=800",
+        "features": [
+          "Najbolje od oba materijala",
+          "Vrhunska izolacija",
+          "Minimalno održavanje",
+          "Ekskluzivan izgled"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Zatražite Ponudu",
+      "description": "Kontaktirajte nas za detaljnu ponudu i konsultacije sa našim stručnjacima.",
+      "buttonText": "Kontaktirajte Nas",
+      "buttonLink": "/kontakt"
+    }
+  }
+  

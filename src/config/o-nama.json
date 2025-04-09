@@ -1,0 +1,23 @@
+{
+    "title": "O Nama",
+    "description": "Dobrodošli u Ugled1952, porodičnu firmu sa dugogodišnjom tradicijom, posvećenu vrhunskoj izradi stolarije po meri. Osnovani davne 1952. godine, od samog početka gradimo reputaciju zasnovanu na kvalitetu, preciznosti i poverenju. Naše znanje i zanatska veština prenose se s generacije na generaciju, spajajući tradicionalne tehnike izrade sa savremenim inovacijama.\n\nU Ugled Stolariji svaki prozor, vrata ili stolarijski element izrađujemo prema specifičnim potrebama klijenata, koristeći pažljivo odabrane materijale i najsavremenije procese obrade. Naš cilj je da stvorimo dugotrajna, funkcionalna i estetski besprekorna rešenja koja će oplemeniti vaš prostor i pružiti vrhunsku udobnost i sigurnost.\n\nBilo da renovirate dom ili opremate novi poslovni prostor, sa nama birate kvalitet koji traje generacijama. Ugled Stolarija – tradicija, pouzdanost i preciznost u svakom detalju.",
+    "vision": {
+      "title": "Naša Vizija",
+      "description": "Težimo tome da postanemo lider u industriji stolarije, prepoznatljiv po vrhunskom kvalitetu, inovativnim rešenjima i dugogodišnjem poverenju naših klijenata. Naša vizija je da spojimo tradiciju i modernu tehnologiju, pružajući proizvode koji traju generacijama i čuvaju životnu sredinu kroz održivu proizvodnju."
+    },
+    "mission": {
+      "title": "Naša Misija",
+      "description": "Naša misija je da kroz vrhunsku izradu stolarije pružimo dugotrajna, funkcionalna i estetski savršena rešenja za domove i poslovne prostore. Posvećeni smo kvalitetu, inovacijama i očuvanju tradicije, osiguravajući da svaki naš proizvod doprinese udobnosti, sigurnosti i energetskoj efikasnosti prostora."
+    },
+    "stats": [
+      { "value": "15 000+", "label": "Završenih Projekata" },
+      { "value": "15", "label": "Članova Tima" },
+      { "value": "70+", "label": "Godina Iskustva" },
+      { "value": "50+", "label": "Osvojenih Nagrada" }
+    ],
+    "image": {
+      "src": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1200",
+      "alt": "Moderna kancelarija"
+    }
+  }
+  

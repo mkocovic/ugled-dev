@@ -1,0 +1,51 @@
+{
+    "prozori": {
+      "title": "Prozori",
+      "description": "Otkrijte našu premium kolekciju prozora izrađenih od najkvalitetnijih materijala, dizajniranih da unaprede vaš životni prostor kroz savršen spoj estetike i funkcionalnosti.",
+      "heroImage": {
+        "src": "/images/products/prozori_display.webp",
+        "alt": "Prozori"
+      }
+    },
+    "vrata": {
+      "title": "Vrata",
+      "subtitle": "Otkrijte našu kolekciju visokokvalitetnih vrata koja kombinuju sigurnost, funkcionalnost i elegantan dizajn.",
+      "heroImage": {
+        "src": "/images/products/vrata_display.webp",
+        "alt": "Vrata"
+      }
+    },
+    "roletne": {
+      "title": "Roletne",
+      "description": "Savremena rešenja za zaštitu vašeg doma koja obezbeđuju kontrolu svetlosti i dodatnu sigurnost.",
+      "heroImage": {
+        "src": "/images/products/roletne_display.webp",
+        "alt": "Roletne"
+      }
+    },
+    "komarnici": {
+      "title": "Komarnici",
+      "description": "Efikasna zaštita od insekata uz maksimalnu funkcionalnost i estetiku.",
+      "heroImage": {
+        "src": "/images/products/komarnici_display.webp",
+        "alt": "Komarnici"
+      }
+    },
+    "klizni-sistemi": {
+      "title": "Klizni Sistemi",
+      "subtitle": "Inovativna rešenja koja kombinuju funkcionalnost i estetiku, idealna za velike staklene površine.",
+      "heroImage": {
+        "src": "/images/products/kliznisistemi_display.webp",
+        "alt": "Klizni Sistemi"
+      }
+    },
+    "staklene-pregrade": {
+      "title": "Staklene Pregrade",
+      "description": "Moderne staklene pregrade koje kombinuju funkcionalnost i estetiku, stvarajući svetle i elegantne prostore.",
+      "heroImage": {
+        "src": "/images/products/staklenepregrade_display.webp",
+        "alt": "Staklene Pregrade"
+      }
+    }
+  }
+  
